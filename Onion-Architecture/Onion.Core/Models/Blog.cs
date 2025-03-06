@@ -2,7 +2,7 @@
 
 namespace Onion.Core.Models
 {
-    class Blog
+   public class Blog
     {
 
         private string? _publisher;

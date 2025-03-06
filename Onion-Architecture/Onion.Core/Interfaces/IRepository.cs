@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Onion.Core.Interfaces
 {
-    interface IBlogRepository
+ public interface IBlogRepository
     {
          Task CreateBlog(Blog blog);
 
-        Task<List<Blog>> GetBlogs();
+        Task<IEnumerable<Blog>> GetBlogs();
     }
 }
