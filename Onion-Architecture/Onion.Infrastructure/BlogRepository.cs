@@ -8,8 +8,9 @@ using Onion.Core.Models;
 
 namespace Onion.Infrastructure
 {
-    class BlogRepository : IBlogRepository
+    class BlogRepository : IRepository
     {
+
         public Task CreateBlog(Blog blog)
         {
             throw new NotImplementedException();

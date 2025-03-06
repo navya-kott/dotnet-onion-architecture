@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Onion.Core.Interfaces
 {
- public interface IBlogRepository
+ public interface IRepository
     {
          Task CreateBlog(Blog blog);
 
