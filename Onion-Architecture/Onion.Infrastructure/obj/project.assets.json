@@ -210,6 +210,16 @@
           "lib/net7.0/ZstdSharp.dll": {}
         }
       },
+      "Onion.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Onion.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Onion.Application.dll": {}
+        }
+      },
       "Onion.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -605,6 +615,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "Onion.Application/1.0.0": {
+      "type": "project",
+      "path": "../Onion.Application/Onion.Application.csproj",
+      "msbuildProject": "../Onion.Application/Onion.Application.csproj"
+    },
     "Onion.Core/1.0.0": {
       "type": "project",
       "path": "../Onion.Core/Onion.Core.csproj",
@@ -614,6 +629,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "MongoDB.Driver >= 3.2.1",
+      "Onion.Application >= 1.0.0",
       "Onion.Core >= 1.0.0"
     ]
   },
@@ -649,8 +665,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Application\\Onion.Application.csproj": {
+              "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Application\\Onion.Application.csproj"
+            },
             "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj": {
-              "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj"
+              "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj",
+              "privateAssets": "all"
             }
           }
         }

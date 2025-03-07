@@ -1,25 +1,37 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Onion.Infrastructure;
+using Microsoft.Extensions.Configuration;
+using Onion.Application.interfaces;
 
-// Add services to the container.
+
+var builder = WebApplication.CreateBuilder(args);
+var config = builder.Configuration;
+
+// Configure MongoDB settings
+var mongoDbSettings = new MongoDbSettings
+{
+    ConnectionString = config["MongoDbSettings:ConnectionString"],
+    DatabaseName = config["MongoDbSettings:DatabaseName"]
+};
+
+// Register MongoDB services
+builder.Services.AddSingleton(mongoDbSettings);
+
+builder.Services.AddScoped<IBloggerService,BlogRepository>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
+app.UseRouting();
 app.MapControllers();
 
 app.Run();
+
+

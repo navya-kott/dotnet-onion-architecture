@@ -3,23 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MongoDB.Driver;
+using Onion.Application.interfaces;
 using Onion.Core.Interfaces;
 using Onion.Core.Models;
 
+
 namespace Onion.Infrastructure
 {
-    class BlogRepository : IRepository
+   
+    public class BlogRepository : IBloggerService
     {
+        private readonly IMongoCollection<Blog> _blog;
 
-        public Task CreateBlog(Blog blog)
+        public BlogRepository(MongoDbSettings settings)
         {
-            throw new NotImplementedException();
+            var client = new MongoClient(settings.ConnectionString);
+            var database = client.GetDatabase(settings.DatabaseName);
+            _blog = database.GetCollection<Blog>("Blog");
+        }
+        public async Task CreateBlog(Blog blog)
+        {
+            await _blog.InsertOneAsync(blog);
         }
 
-        public Task<IEnumerable<Blog>> GetBlogs()
+        public async Task<IEnumerable<Blog>> GetBlogs()
         {
-            throw new NotImplementedException();
-        } 
+            return await _blog.Find(p => true).ToListAsync();
+        }
     }
 }
-

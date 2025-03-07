@@ -33,7 +33,8 @@
             "targetAlias": "net8.0",
             "projectReferences": {
               "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj": {
-                "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj"
+                "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj",
+                "privateAssets": "all"
               }
             }
           }
