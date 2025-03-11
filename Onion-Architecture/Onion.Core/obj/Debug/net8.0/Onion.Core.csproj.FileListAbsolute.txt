@@ -1,0 +1,13 @@
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\bin\Debug\net8.0\Onion.Core.deps.json
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\bin\Debug\net8.0\Onion.Core.dll
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\bin\Debug\net8.0\Onion.Core.pdb
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\Onion.Core.csproj.AssemblyReference.cache
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\Onion.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\Onion.Core.AssemblyInfoInputs.cache
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\Onion.Core.AssemblyInfo.cs
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\Onion.Core.csproj.CoreCompileInputs.cache
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\Onion.Core.sourcelink.json
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\Onion.Core.dll
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\refint\Onion.Core.dll
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\Onion.Core.pdb
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Core\obj\Debug\net8.0\ref\Onion.Core.dll

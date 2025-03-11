@@ -12,9 +12,10 @@ using Onion.Core.Models;
 namespace Onion.Infrastructure
 {
    
-    public class BlogRepository : IBloggerService
+    public class BlogRepository : IRepository
     {
         private readonly IMongoCollection<Blog> _blog;
+
 
         public BlogRepository(MongoDbSettings settings)
         {

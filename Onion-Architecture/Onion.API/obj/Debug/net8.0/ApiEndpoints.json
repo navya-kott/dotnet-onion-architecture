@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "blog",
-        "Type": "Onion.Core.Models.Blog",
+        "Type": "Onion.Application.DTO.BlogDto",
         "IsRequired": true
       }
     ],

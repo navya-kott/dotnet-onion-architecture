@@ -35,6 +35,9 @@
               "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Application\\Onion.Application.csproj": {
                 "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Application\\Onion.Application.csproj"
               },
+              "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj": {
+                "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj"
+              },
               "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Infrastructure\\Onion.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Infrastructure\\Onion.Infrastructure.csproj"
               }
@@ -135,6 +138,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

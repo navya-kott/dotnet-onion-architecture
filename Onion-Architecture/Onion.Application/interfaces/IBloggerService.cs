@@ -1,13 +1,14 @@
-﻿using Onion.Core.Models;
+﻿using Onion.Application.DTO;
+using Onion.Core.Models;
 using System.Reflection.Metadata;
 
 namespace Onion.Application.interfaces
 {
     public interface IBloggerService
     {
-        Task CreateBlog(Blog blog);
+        Task CreateBlog(BlogDto blog);
 
-        Task<IEnumerable<Blog>> GetBlogs();
+        Task<IEnumerable<BlogDto>> GetBlogs();
         
 
     }

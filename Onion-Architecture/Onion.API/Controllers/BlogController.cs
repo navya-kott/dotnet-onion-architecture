@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Onion.Application.DTO;
 using Onion.Application.interfaces;
+
 
 
 namespace Onion.API.Controllers
@@ -30,7 +32,7 @@ namespace Onion.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateBlog([FromBody] Blog blog)
+        public async Task<IActionResult> CreateBlog([FromBody] BlogDto blog)
         {
             await _bloggerService.CreateBlog(blog);
             return Ok("Blog created successfully");

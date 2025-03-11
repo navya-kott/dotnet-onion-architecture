@@ -24,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Blog"
+                "$ref": "#/components/schemas/BlogDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Blog"
+                "$ref": "#/components/schemas/BlogDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Blog"
+                "$ref": "#/components/schemas/BlogDto"
               }
             }
           }
@@ -110,10 +110,9 @@
   },
   "components": {
     "schemas": {
-      "Blog": {
+      "BlogDto": {
         "required": [
           "content",
-          "id",
           "publisher"
         ],
         "type": "object",
@@ -129,14 +128,6 @@
           "publisher": {
             "type": "string",
             "nullable": true
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false

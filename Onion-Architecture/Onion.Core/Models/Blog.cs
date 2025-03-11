@@ -8,6 +8,7 @@ namespace Onion.Core.Models
         private string? _publisher;
 
         [BsonId]
+        [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
         public required string Id { get; set; }
 
         public required string Content { get; set; }
