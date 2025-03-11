@@ -1,11 +1,3 @@
-C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.csproj.AssemblyReference.cache
-C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.AssemblyInfoInputs.cache
-C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.AssemblyInfo.cs
-C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.csproj.CoreCompileInputs.cache
-C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.sourcelink.json
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\appsettings.json
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\Onion.API.staticwebassets.endpoints.json
@@ -16,6 +8,8 @@ C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.A
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\Onion.API.pdb
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\DnsClient.dll
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\MongoDB.Bson.dll
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\MongoDB.Driver.dll
@@ -31,6 +25,14 @@ C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.A
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\Onion.Application.pdb
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\Onion.Core.pdb
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\bin\Debug\net8.0\Onion.Infrastructure.pdb
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.csproj.AssemblyReference.cache
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.AssemblyInfoInputs.cache
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.AssemblyInfo.cs
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.csproj.CoreCompileInputs.cache
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\Onion.API.sourcelink.json
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\scopedcss\bundle\Onion.API.styles.css
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.API\obj\Debug\net8.0\staticwebassets.development.json

@@ -26,22 +26,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Onion.API.Controllers.BlogController",
-    "Method": "GetBlog",
-    "RelativePath": "api/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Onion.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

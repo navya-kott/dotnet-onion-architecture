@@ -25,11 +25,6 @@ namespace Onion.API.Controllers
 
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetBlog(string id)
-        {
-            return Ok(await _bloggerService.GetBlogs());
-        }
 
         [HttpPost]
         public async Task<IActionResult> CreateBlog([FromBody] BlogDto blog)

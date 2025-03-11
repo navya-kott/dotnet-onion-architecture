@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Onion.Infrastructure;
+using Onion.Infrastructure; 
+using Onion.Infrastructure.ServiceExtensions;
 using Microsoft.Extensions.Configuration;
 using Onion.Application.interfaces;
-using Onion.Core.Interfaces;
 using Onion.Application.Mappings;
 using Onion.Application.Services;
 
@@ -22,7 +22,7 @@ var mongoDbSettings = new MongoDbSettings
 // Register MongoDB services
 builder.Services.AddSingleton(mongoDbSettings);
 
-builder.Services.AddScoped<IRepository,BlogRepository>();
+builder.Services.AddApplicationServiceExtensions(config);
 builder.Services.AddAutoMapper(typeof (BlogProfile));
 builder.Services.AddScoped<IBloggerService, BlogService>();
 

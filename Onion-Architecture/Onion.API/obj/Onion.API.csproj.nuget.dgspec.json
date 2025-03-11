@@ -35,9 +35,6 @@
               "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Application\\Onion.Application.csproj": {
                 "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Application\\Onion.Application.csproj"
               },
-              "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj": {
-                "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Core\\Onion.Core.csproj"
-              },
               "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Infrastructure\\Onion.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\navya\\source\\repos\\dotnet-onion-architecture\\Onion-Architecture\\Onion.Infrastructure\\Onion.Infrastructure.csproj"
               }
@@ -142,6 +139,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
