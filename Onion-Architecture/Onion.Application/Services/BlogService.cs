@@ -11,22 +11,23 @@ using System.Threading.Tasks;
 
 namespace Onion.Application.Services
 {
-    public class BlogService : IBloggerService
+    public class IBlogService : IBloggerService
     {
         private readonly IRepository _repository;
 
         private readonly IMapper _mapper;
 
-        public BlogService(IRepository repository, IMapper mapper)
+        public IBlogService(IRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
         }
 
-        public async Task CreateBlog(BlogDto blogDto)
+        public async Task <bool> CreateBlog(BlogDto blogDto)
         {
             var blog = _mapper.Map<Blog>(blogDto);
             await _repository.CreateBlog(blog);
+            return true;
         }
 
  

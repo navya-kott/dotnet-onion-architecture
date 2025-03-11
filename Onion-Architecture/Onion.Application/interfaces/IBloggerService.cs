@@ -6,7 +6,7 @@ namespace Onion.Application.interfaces
 {
     public interface IBloggerService
     {
-        Task CreateBlog(BlogDto blog);
+        Task <bool> CreateBlog(BlogDto blog);
 
         Task<IEnumerable<BlogDto>> GetBlogs();
         

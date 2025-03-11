@@ -24,7 +24,7 @@ builder.Services.AddSingleton(mongoDbSettings);
 
 builder.Services.AddApplicationServiceExtensions(config);
 builder.Services.AddAutoMapper(typeof (BlogProfile));
-builder.Services.AddScoped<IBloggerService, BlogService>();
+builder.Services.AddScoped<IBloggerService, IBlogService>();
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
