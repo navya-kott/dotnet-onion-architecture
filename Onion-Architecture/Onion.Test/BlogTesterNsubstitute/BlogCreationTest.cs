@@ -3,7 +3,6 @@ using NSubstitute;
 using Onion.Application.DTO;
 using Onion.Application.Services;
 using Onion.Core.Interfaces;
-using Onion.Core.Models;
 
 
 namespace Onion.Test.BlogTester
@@ -26,8 +25,8 @@ namespace Onion.Test.BlogTester
             var blogDto = new BlogDto
             {
                 
-                Content = "fsdf",
-                Publisher = "uuuu"
+                Content = "Sample content",
+                Publisher = "Mrinmayi"
             };
 
             var result = await _blogService.CreateBlog(blogDto);

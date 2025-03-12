@@ -15,7 +15,7 @@ namespace Onion.Infrastructure
     public class BlogRepository : IRepository
     {
         private readonly IMongoCollection<Blog> _blog;
-
+        private IMongoDatabase database;
 
         public BlogRepository(MongoDbSettings settings)
         {
@@ -23,6 +23,12 @@ namespace Onion.Infrastructure
             var database = client.GetDatabase(settings.DatabaseName);
             _blog = database.GetCollection<Blog>("Blog");
         }
+
+        public BlogRepository(IMongoDatabase database)
+        {
+            this.database = database;
+        }
+
         public async Task CreateBlog(Blog blog)
         {
             await _blog.InsertOneAsync(blog);

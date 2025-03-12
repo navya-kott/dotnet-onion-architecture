@@ -23,5 +23,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\navya\.nuget\packages\xunit.analyzers\1.4.0</Pkgxunit_analyzers>
+    <PkgMongo2Go Condition=" '$(PkgMongo2Go)' == '' ">C:\Users\navya\.nuget\packages\mongo2go\4.1.0</PkgMongo2Go>
   </PropertyGroup>
 </Project>

@@ -129,3 +129,4 @@ C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.T
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\obj\Debug\net8.0\Onion.Test.pdb
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\obj\Debug\net8.0\Onion.Test.genruntimeconfig.cache
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\obj\Debug\net8.0\ref\Onion.Test.dll
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\bin\Debug\net8.0\Mongo2Go.dll
