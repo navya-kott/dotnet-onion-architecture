@@ -31,6 +31,7 @@ C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.T
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\bin\Debug\net8.0\Mongo2Go.dll
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\bin\Debug\net8.0\MongoDB.Bson.dll
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\bin\Debug\net8.0\MongoDB.Driver.dll
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\bin\Debug\net8.0\Newtonsoft.Json.dll
@@ -129,4 +130,3 @@ C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.T
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\obj\Debug\net8.0\Onion.Test.pdb
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\obj\Debug\net8.0\Onion.Test.genruntimeconfig.cache
 C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\obj\Debug\net8.0\ref\Onion.Test.dll
-C:\Users\navya\source\repos\dotnet-onion-architecture\Onion-Architecture\Onion.Test\bin\Debug\net8.0\Mongo2Go.dll

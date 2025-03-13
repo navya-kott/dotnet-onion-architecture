@@ -34,6 +34,7 @@ namespace Onion.API.Controllers
         public async Task<IActionResult> CreateBlog([FromBody] BlogDto blog)
         {
             await _meadiator.Send(new BlogCreateCommand(blog.Publisher,blog.Content));
+            await _meadiator.Publish(new Notifier($"Blog created successfully by {blog.Publisher}"));
             return Ok("Blog created successfully");
 
         }
