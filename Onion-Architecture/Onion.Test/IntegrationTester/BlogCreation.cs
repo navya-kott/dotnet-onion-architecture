@@ -5,15 +5,13 @@ using Onion.Infrastructure;
 
 namespace Onion.Test.IntegrationTester
 {
-   
-    public class OrderRepositoryTests : IDisposable
+    public class BlogCreation : IDisposable
     {
         private readonly MongoDbRunner _mongoRunner;
         private readonly IMongoDatabase _database;
         private readonly BlogRepository _mockBlogRepository;
 
-
-        public OrderRepositoryTests()
+        public BlogCreation()
         {
             // ✅ Start an in-memory MongoDB instance
             _mongoRunner = MongoDbRunner.Start();
@@ -28,7 +26,6 @@ namespace Onion.Test.IntegrationTester
             // Arrange
             var order = new Blog
             {
-                Id = "123",
                 Content = "aaa",
                 Publisher = "aaaa"
             };
@@ -36,14 +33,10 @@ namespace Onion.Test.IntegrationTester
             // Act
             await _mockBlogRepository.CreateBlog(order);
             var fetchedOrder = await _mockBlogRepository.GetBlogs();
-
+            //Console.WriteLine(fetchedOrder);
             // Assert
             Assert.NotNull(fetchedOrder);
-
-
         }
-
-
 
         public void Dispose()
         {
